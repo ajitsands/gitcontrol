@@ -1,5 +1,9 @@
 <?php
-$secret = "sandslab_secret";
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+$secret = "S@nds1@b";
 
 // Log incoming requests
 file_put_contents('webhook_debug.log', date('Y-m-d H:i:s') . " - webhook triggered\n", FILE_APPEND);
