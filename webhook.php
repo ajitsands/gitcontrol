@@ -18,7 +18,7 @@ if ($signature) {
 }
 
 // Run deploy script
-exec("/home/sandsl23/public_html/aacar.sandslab.com/deploy.sh 2>&1", $output);
+exec("/home/sandsl23/public_html/gitcontrol.sandslab.com/deploy.sh 2>&1", $output);
 
 // Log output
 file_put_contents('webhook_debug.log', implode("\n", $output) . "\n", FILE_APPEND);
