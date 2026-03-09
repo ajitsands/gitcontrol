@@ -13,12 +13,6 @@ dos2unix /home/sandsl23/public_html/aacar.sandslab.com/deploy.sh
 
 
 
-
-
-
-
-
-
 Pull to Server First Time 
 git init
 git remote add origin https://github.com/ajitsands/gitcontrol.git
@@ -33,3 +27,7 @@ chmod 755 /home/sandsl23/public_html/gitcontrol.sandslab.com
 
 # Deploy script executable
 chmod +x /home/sandsl23/public_html/gitcontrol.sandslab.com/deploy.sh
+
+
+The Major Chnages Happend in the web hook the from server pull 
+git pull origin main
