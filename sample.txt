@@ -1,1 +1,35 @@
-This is a Sample Date and New Chneged
+git add .
+git commit -m "Test webhook deployment"
+git push origin main
+
+To get All Updated Files to Server goto Server Commed Prompt and fo to working folder 
+cd /home/sandsl23/public_html/aacar.sandslab.com
+
+Then Call below Command 
+git pull origin main
+
+convert to dos
+dos2unix /home/sandsl23/public_html/aacar.sandslab.com/deploy.sh
+
+
+
+
+
+
+
+
+
+Pull to Server First Time 
+git init
+git remote add origin https://github.com/ajitsands/gitcontrol.git
+git pull origin main
+
+
+# PHP files readable
+chmod 644 /home/sandsl23/public_html/gitcontrol.sandslab.com/webhook.php
+
+# Folder executable
+chmod 755 /home/sandsl23/public_html/gitcontrol.sandslab.com
+
+# Deploy script executable
+chmod +x /home/sandsl23/public_html/gitcontrol.sandslab.com/deploy.sh
