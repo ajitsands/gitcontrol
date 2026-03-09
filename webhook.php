@@ -1,4 +1,5 @@
 <?php
+
 $secret = "S@nds1@b";
 
 // Log incoming requests
