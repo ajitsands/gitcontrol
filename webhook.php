@@ -1,8 +1,8 @@
 <?php
-<?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
 $secret = "S@nds1@b";
 
 // Log incoming requests
@@ -28,4 +28,3 @@ exec("/home/sandsl23/public_html/gitcontrol.sandslab.com/deploy.sh 2>&1", $outpu
 file_put_contents('webhook_debug.log', implode("\n", $output) . "\n", FILE_APPEND);
 
 echo "Deployment triggered";
-?>
