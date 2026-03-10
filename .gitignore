@@ -1,7 +1,13 @@
+# Server config and sensitive files
 .user.ini
 .htaccess
 .env
 config.php
-uploads/
 php.ini
+uploads/
+deploy.sh
+webhook.php
+.gitignore
+deploy.log
 webhook_debug.log
+error_log
