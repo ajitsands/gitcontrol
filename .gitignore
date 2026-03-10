@@ -1,2 +1,9 @@
 .user.ini
 .htaccess
+<<<<<<< HEAD
+=======
+.env
+php.ini
+config.php
+uploads/
+>>>>>>> 3a8d6abdf83707ab664e82ea12586339cd4ed496
