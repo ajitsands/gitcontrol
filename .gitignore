@@ -1,9 +1,12 @@
 .user.ini
 .htaccess
-<<<<<<< HEAD
-=======
 .env
-php.ini
 config.php
+php.ini
 uploads/
->>>>>>> 3a8d6abdf83707ab664e82ea12586339cd4ed496
+deploy.sh
+webhook.php
+.gitignore
+deploy.log
+webhook_debug.log
+error_log
