@@ -3,3 +3,5 @@
 .env
 config.php
 uploads/
+php.ini
+webhook_debug.log
