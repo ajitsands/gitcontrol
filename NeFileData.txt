@@ -1,1 +1,4 @@
-This is My New File Data, Ok Now Chnages
+<div class="stamp-footer">
+    <img src="'.$stamp.'" style="height:130px;">
+    <img src="'.$signature.'" style="height:70px;">
+</div>
