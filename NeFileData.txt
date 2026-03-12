@@ -1,4 +1,4 @@
 <div class="stamp-footer">
     <img src="'.$stamp.'" style="height:130px;">
-    <img src="'.$signature.'" style="height:70px;">
+    <img src="'.$signature.'" style="height:170px;">
 </div>
